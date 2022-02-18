@@ -1,11 +1,12 @@
 # Task : Project Setup
 
-## Subtasks
+## Subs
 
-1. setup task tracking with Notion[-]
-2. create project directory [-]
-3. install packages[-]
-4. setup base template[-]
-5. make initial commit[-]
-6. push code to remote repo[-]
-7. deploy to netlify[-]
+### Page Template Components and Repo Setup
+
+- delete node_modules
+- stash changes
+- clone finshed projectc repo branch
+- reinstall all packages
+- built initial topbar component and styles
+- built initial sidebar component and styles
