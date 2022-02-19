@@ -1,12 +1,7 @@
-# Task : Project Setup
+# Task : User pages
 
 ## Subs
 
-### Page Template Components and Repo Setup
-
-- delete node_modules
-- stash changes
-- clone finshed projectc repo branch
-- reinstall all packages
-- built initial topbar component and styles
-- built initial sidebar component and styles
+- user page
+- create new user page
+- update user page

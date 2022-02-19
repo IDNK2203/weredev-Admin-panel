@@ -13,6 +13,7 @@ import {
   WorkOutline,
   Report,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -22,8 +23,10 @@ function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <Link to="/" className="link">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </Link>
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
@@ -39,12 +42,16 @@ function Sidebar() {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <PermIdentity className="sidebarIcon" />
-              Users
+              <Link to="/user" className="link">
+                <PermIdentity className="sidebarIcon" />
+                Users
+              </Link>
             </li>
             <li className="sidebarListItem">
-              <Storefront className="sidebarIcon" />
-              Products
+              <Link to="/product" className="link">
+                <Storefront className="sidebarIcon" />
+                Products
+              </Link>
             </li>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
